@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>OCPGroup | Fertify</title>
+    <link rel="icon" href="..\static\images\logo.png" type="image/x-icon">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="../static/images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="../static/css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/../static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <link rel="stylesheet" href="../static/css/form_style.css">
+</head>
+<body>
+    <div class="header">
+        <!--<div class="container">
+            <div class="row">-->
+                <!--<div class="col-md-12 location_icon_bottum">-->
+                   <div class="row nav">
+                        <div class="col-md-6 logo">
+                            <img src="../static/images/logo.svg" alt="">
+                            <img src="../static/images/croix.png" alt="">
+                            <img src="../static/images/logo2-remove.png" class="project" alt="">
+                            
+                        </div>
+
+                        <div class="col-md-6 menu">
+                            <div class="menu-area">
+                                <div class="limit-box">
+                                    <nav class="main-menu">
+                                        <ul class="menu-area-main">
+                                            <li class="active"> <a href="Home-fr.html">Accueil</a> </li>
+                                            <li> <a href="Home-fr.html#about">À propos</a> </li>
+                                            <li><a href="Home-fr.html#service">Services</a></li>
+                                            <li><a href="Contact-fr.html">Contactez-nous</a></li>
+                                            <li><a href="Home-fr.html#help">Aide</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                   </div>
+    </div>
+    <div class="collaboration-section" style ="z-index: 1;">
+        <p>
+            Nous nous concentrons sur un ensemble limité de types de sol et de cultures. Si vous avez des données ou des informations pertinentes,
+            nous serions ravis de vous entendre. <a href="Contact.html">Contactez-nous</a> avec toutes les informations que vous pouvez fournir.
+        </p>
+    </div>
+    <div class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div id="about" class="about" style="width:40%; padding:0px">
+            <div class="about_box" style="padding:0px">
+                <h2>À propos de Fertify<br><strong class="black">Boostez vos cultures avec des engrais intelligents</strong></h2>
+                <p>Présentation de Fertify, votre solution pour des recommandations avancées d'engrais. Fertify transforme l'agriculture avec une technologie IA de pointe. En s'alignant sur l'engagement du Groupe OCP envers l'innovation numérique,
+                    un avenir agricole plus intelligent et plus efficace.</p>
+                    <div class="formbold-btn" id="fertilizer">
+                    Votre meilleur engrais 
+                    </div>
+            </div>
+        </div>
+        <div class="formbold-form-wrapper floating-image">
+        <form action=" " method="POST" id="prediction-form">
+            <div class="title" style="padding-bottom: 10px; padding-top: 10px;" >
+                <h2 style="font-size: 20px; line-height: 30px;">Conditions<strong class="black" style="font-size: 20px;" > Environnementales</strong></h2>
+            </div>
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="temperature" class="formbold-form-label"><img src="../static/icon/celsius.png" alt="">     Température</label>
+                    <input
+                    type="text"
+                    name="temperature"
+                    id="temperature"
+                    placeholder=""
+                    class="formbold-form-input"
+                    />
+                </div>
+                <div>
+                    <label for="humidity" class="formbold-form-label"><img src="../static/icon/humidity.png" alt="">     Humidité </label>
+                    <input
+                    type="text"
+                    name="humidity"
+                    id="humidity"
+                    placeholder=""
+                    class="formbold-form-input"
+                    />
+                </div>
+            </div>
+            <div class="title" style="padding-bottom: 10px; padding-top: 0px;" >
+                <h2 style="font-size: 20px; line-height: 20px;">Conditions<strong class="black" style="font-size: 20px;" > du Sol</strong></h2>
+            </div>
+    
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="moisture" class="formbold-form-label"> <img src="../static/icon/moisture.png" alt="">    Humidité </label>
+                    <input
+                    type="text"
+                    name="moisture"
+                    id="moisture"
+                    placeholder=""
+                    class="formbold-form-input"
+                    />
+                </div>
+                <div>
+                    <label for="nitro" class="formbold-form-label"><img src="../static/icon/nitro.png" alt="">    Azote</label>
+                    <input
+                    type="text"
+                    name="nitrogene"
+                    id="nitrogene"
+                    placeholder=""
+                    class="formbold-form-input"
+                    />
+                </div>
+            </div>
+
+            <div class="formbold-input-flex">
+                <div>
+                    <label for="potassium" class="formbold-form-label"> <img src="../static/icon/pota.png" alt="" class="small">    Potassium</label>
+                    <input
+                    type="text"
+                    name="potassium"
+                    id="potassium"
+                    placeholder=""
+                    class="formbold-form-input"
+                    />
+                </div>
+                <div>
+                    <label for="phosphorous" class="formbold-form-label"><img src="../static/icon/phos.png" alt=""  class="small">    Phosphore</label>
+                    <input
+                    type="text"
+                    name="phosphorous"
+                    id="phosphorous"
+                    placeholder=""
+                    class="formbold-form-input"
+                    />
+                </div>
+            </div>
+    
+            <div class="formbold-input-radio-wrapper">
+                <label for="soltype" class="formbold-form-label"><img src="../static/icon/sol.png" alt="">Type de Sol</label>
+                <div class="formbold-radio-flex">
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Loamy" name='soltype' id="soltype">
+                            Argileux
+                        </label>
+                    </div>
+    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Sandy" name='soltype' id="soltype">
+                            Sablo
+                        </label>
+                    </div>
+    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Clayey" name='soltype' id="soltype">
+                            Argileux
+                        </label>
+                    </div>
+    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Black" name='soltype' id="soltype">
+                            Noir
+                        </label>
+                    </div>
+
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Red" name='soltype' id="soltype" >
+                            Rouge
+                        </label>
+                    </div>
+                </div>
+                <label for="soltype" class="formbold-form-label"><img src="../static/icon/ble.png" alt=""> Type de Culture</label>
+                
+                <div class="formbold-radio-flex-crop">
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Sugarcane" id="croptype" name="croptype">
+                            Canne à sucre
+                        </label>
+                    </div>
+    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Cotton" id="croptype" name="croptype">
+                            Coton
+                        </label>
+                    </div>
+    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Millets" id="croptype" name="croptype">
+                            Millets
+                        </label>
+                    </div>
+    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Paddy" id="croptype"  name="croptype">
+                            Riz
+                        </label>
+                    </div>
+
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Pulses" id="croptype"  name="croptype">
+                            Légumineuses
+                        </label>
+                    </div>
+                    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Maize" id="croptype"  name="croptype">
+                            Maïs
+                        </label>
+                    </div>
+
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Tobacco" id="croptype"  name="croptype">
+                            Tabac
+                        </label>
+                    </div>
+                    
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Barley" id="croptype"  name="croptype">
+                            Orge
+                        </label>
+                    </div>
+
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Wheat" id="croptype"  name="croptype">
+                            Blé
+                        </label>
+                    </div>
+
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Oil seeds" id="croptype"  name="croptype">
+                            Graines oléagineuses
+                        </label>
+                    </div>
+
+                    <div class="formbold-radio-group">
+                        <label class="formbold-radio-label">
+                            <input class="formbold-input-radio" type="radio" value="Ground Nuts" id="croptype"  name="croptype">
+                            Arachides
+                        </label>
+                    </div>
+
+                </div>
+
+            </div>
+    
+            <button class="formbold-btn">
+                Découvrez le meilleur engrais
+            </button>
+        </form>
+        </div>
+        
+        
+    </div>
+    <footer>
+     
+        <div class="copyright">
+            <div class="container">
+                <p>© 2024 Tous droits réservés.</p>
+           
+        </div>
+        </div>
+    </footer>
+    
+</body>
+
+<script src="../static/integration/fertify_integ.js"></script>
+<script>
+    // Fonction pour afficher la section pendant un temps limité
+    function showCollaborationSection() {
+        const section = document.querySelector('.collaboration-section');
+        /*section.style.display = 'block'; // Afficher la section*/
+
+        // Masquer la section après 10 secondes (10000 millisecondes)
+        setTimeout(() => {
+            section.style.display = 'none';
+        }, 10000);
+    }
+
+    // Appeler la fonction pour afficher la section lorsque la page se charge
+    window.onload = showCollaborationSection;
+</script>
