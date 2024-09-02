@@ -1,0 +1,75 @@
+{
+ "intents": [{
+    "tag" : "greetings",
+    "pattern" : ["hi", "how are you?","hello","good morning", "how are you doing?","are you okey?"],
+    "answers" : ["I'm fine, how can i assist you today?", "Great, how i can assist you today?"]
+ },
+ {
+    "tag" : "services",
+    "pattern" : ["what services are you providing?", "what do you do?","what's your mission?"],
+    "answers" : ["I'm a chatbot whose role is to assist you in  exploring our website",
+    "My mission is to help you navigate the website easily",
+    "I'm helping you navigate the website with ease",
+   "I'm assisting you in your discovering journey"]
+ },
+
+ {
+   "tag" : "identity",
+   "pattern" : ["who are you?", "how do you define your self?","can you tell me smtg about your self?"],
+   "answers" : ["I'm a integrated chatbot I was developped during an internship at OCP Group by two interns whose names are NEDJAOUI Ihssane and MAGHA Ahmed",
+   "I'm an integrated chatbot within Agroboost OCPGroup project",
+   "I'm Agroboost an integrated chatbot within the Agoboost OCP Project"]
+},
+
+{
+   "tag" : "project",
+   "pattern" : ["what's agroboost?", "what's the project","can you tell me smtg about agroboost?","what services does Agroboost provide?"],
+   "answers" : ["Agroboost is an innovative project funded by OCP Group that aims to revolutionize agricultural practices through advanced technology",
+   "Agroboost  is an innovative project funded by OCP Group that aims to revolutionize agricultural practices through advanced technology,it comes with three services: Fertify a fertilizer recommendation system, FertiBot a sophisticated chatbot that offers users detailed information about various fertilizers and PlantGuard a AI-powered plant disease detection solution",
+   "Agroboost is a project that aligns with OCP Group vision to advance agricultural efficiency and sustainability, With its focus on digitalization and AI."
+]
+},
+{
+   "tag" : "Fertify",
+   "pattern" : ["what's Fertify?", "talk to me about Fertify","How Fertify was developed?"],
+   "answers" : ["Fertify is an innovative service provided by Agroboost and funded by OCP Group that aims to revolutionize agricultural practices through Fertilizer Recommendation,Fertify analyzes a range of factors including soil composition, crop type, and environmental conditions to deliver highly personalized fertilizer recommendations",
+   "Fertify  is an innovative project funded by OCP Group that aims to revolutionize agricultural practices through advanced technology,Fertify analyzes a range of factors including soil composition, crop type, and environmental conditions to deliver highly personalized fertilizer recommendations",
+   "Fertify is a service that aligns with OCP Group’s vision to advance agricultural efficiency and sustainability, With its focus on digitalization and AI Fertify analyzes a range of factors including soil composition, crop type, and environmental conditions to deliver highly personalized fertilizer recommendations",
+   "Fertify is an advanced fertilizer recommendation system designed to transform how farmers optimize their crop nutrition. Utilizing cutting-edge AI and machine learning technologies, Fertify analyzes a range of factors including soil composition, crop type, and environmental conditions to deliver highly personalized fertilizer recommendations"
+]
+},
+
+{
+   "tag" : "FertiBot",
+   "pattern" : ["what's FertiBot?", "talk to me about FertiBot","How FertiBot was developed?"],
+   "answers" : ["FertiBot is an innovative service provided by Agroboost and funded by OCP Group that aims to revolutionize agricultural practices through advanced information technology. Utilizing large language models (LLM) and Retrieval-Augmented Generation (RAG) techniques.",
+   "FertiBot  is an innovative project funded by OCP Group that aims to revolutionize agricultural practices through advanced technology,FertiBot delivers detailed and accurate information about OCP fertilizers Utilizing large language models (LLM) and Retrieval-Augmented Generation (RAG) techniques.",
+   "Fertibot aligns with OCP Group’s vision to advance agricultural efficiency and sustainability through digital innovation. it enhances users' understanding of fertilizer options, helping them make well-informed decisions to optimize crop health and yield",
+   "As a key feature of Agriboost, Fertibot aligns with OCP Group’s vision to advance agricultural efficiency and sustainability through digital innovation. it enhances users' understanding of fertilizer options, helping them make well-informed decisions to optimize crop health and yield"
+]
+},
+
+{
+   "tag" : "PlantGuard",
+   "pattern" : ["what's PlantGuard?", "talk to me about PlantGuard","How PlantGuard was developed?"],
+   "answers" : ["PlantGuard is an innovative service provided by Agroboost and funded by OCP Group, designed to safeguard crop health through state-of-the-art technology. Leveraging AI and machine learning, PlantGuard provides real-time detection and analysis of plant diseases.",
+   "PlantGuard  is an innovative project funded by OCP Group that aims to revolutionize agricultural practices through advanced technology,PlantGuard delivers accurate diagnostics ,This proactive approach helps mitigate the risk of widespread disease, ensuring healthier crops and improved yields.",
+   "PlantGuard exemplifies Agriboost’s commitment to enhancing agricultural productivity and sustainability, aligning with OCP Group’s vision of integrating cutting-edge technology into farming practices."
+]
+},
+{
+   "tag" : "Bonjour",
+   "pattern" : ["comment vas-tu?", "bonjour","bonsoir"],
+   "answers" : ["ça vas bien merci","je t'en prie"
+]
+}
+
+
+
+
+
+]
+
+
+
+}
