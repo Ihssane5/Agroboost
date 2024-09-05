@@ -116,7 +116,7 @@ check this notebook for more details: [Fertify Notebook](./EDA/Fertify.ipynb)
   - **The Assistance Chatbot:** The ChatBot was build using Pytorch Frameworks for the classifier.
 ## Demonstration
 - **Video Demonstration**
-To get a comprehensive overview of the website's functionalities and design, please watch our [Video Demonstration](link).
+To get a comprehensive overview of the website's functionalities and design, please watch our [Video Demonstration](https://www.linkedin.com/feed/update/urn:li:activity:7237570119797788672/).
 
 - **Home Page**
 this the link of the [Home Page](https://ihssane5.github.io/Agroboost/).
